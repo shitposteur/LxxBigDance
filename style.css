@@ -10,7 +10,7 @@ html {
 }
 body {
     height: 100%;
-    background-image: linear-gradient(to bottom left, #f33, #f55);
+    background-image: linear-gradient(to bottom left, #f11, #f44);
 }
 
 header {
@@ -27,6 +27,10 @@ header {
 }
 
 @media only screen and (max-width: 400px) {
+    body {
+        background-image: linear-gradient(to bottom left, #f33, #f66);
+    }
+
     header {
         font-size: 1.6rem;
         padding: 0.4rem 0;
